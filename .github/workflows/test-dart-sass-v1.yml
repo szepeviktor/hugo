@@ -35,7 +35,7 @@ jobs:
         ruby-version: '2.7' 
         bundler-cache: true #
     - name: Install Python
-      uses: actions/setup-python@3105fb18c05ddd93efea5f9e0bef7a03a6e9e7df
+      uses: actions/setup-python@61a6322f88396a6271a6ee3565807d608ecaddd1
       with:
         python-version: '3.x'
     - name: Install Mage
