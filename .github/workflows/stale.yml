@@ -12,7 +12,7 @@ jobs:
       pull-requests: write
     runs-on: ubuntu-latest
     steps:
-      - uses: dessant/lock-threads@08e671be8ac8944d0e132aa71d0ae8ccfb347675
+      - uses: dessant/lock-threads@be8aa5be94131386884a6da4189effda9b14aa21
         with:
           issue-inactive-days: 21
           add-issue-labels: 'Outdated'
