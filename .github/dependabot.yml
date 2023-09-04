@@ -1,7 +1,19 @@
-# See https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#package-ecosystem
+# yaml-language-server: $schema=https://json.schemastore.org/dependabot-2.0.json
+
 version: 2
+
 updates:
-  - package-ecosystem: "gomod"
+-
+    package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+        interval: "daily"
+-
+    package-ecosystem: "gomod"
+    directory: "/"
+    #allow:
+    #-
+    #    dependency-name: "*"
+    #    dependency-type: "production"
+    schedule:
+        interval: "daily"
