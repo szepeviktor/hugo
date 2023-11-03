@@ -29,7 +29,7 @@ require (
 	github.com/fatih/color v1.15.0
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/frankban/quicktest v1.14.6
-	github.com/fsnotify/fsnotify v1.6.0
+	github.com/fsnotify/fsnotify v1.7.0
 	github.com/getkin/kin-openapi v0.118.0
 	github.com/ghodss/yaml v1.0.0
 	github.com/gobuffalo/flect v1.0.2
@@ -61,8 +61,8 @@ require (
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/fsync v0.9.0
 	github.com/spf13/pflag v1.0.5
-	github.com/tdewolff/minify/v2 v2.12.7
-	github.com/tdewolff/parse/v2 v2.6.6
+	github.com/tdewolff/minify/v2 v2.20.6
+	github.com/tdewolff/parse/v2 v2.7.4
 	github.com/yuin/goldmark v1.5.6
 	go.uber.org/atomic v1.11.0
 	go.uber.org/automaxprocs v1.5.3
@@ -142,7 +142,7 @@ require (
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/mod v0.12.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
-	golang.org/x/sys v0.11.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20230803162519-f966b187b2e5 // indirect
